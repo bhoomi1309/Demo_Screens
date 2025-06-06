@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.signup-box {
+  width: 320px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.signup-box h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.signup-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #8000ff;
+}
+
+.signup-box label span {
+  color: red;
+}
+
+.signup-box input[type="text"],
+.signup-box input[type="email"],
+.signup-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.radio-group {
+  margin: 10px 0 20px;
+}
+
+.radio-group p {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+}
+
+.radio-group label {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 6px;
+  accent-color: #8000ff;
+}
+
+.signup-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #8000ff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
